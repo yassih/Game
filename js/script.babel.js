@@ -77,7 +77,7 @@ gameGrid.forEach(function (item) {
 var match = function match() {
   var selected = document.querySelectorAll('.selected');
   selected.forEach(function (card) {
-    card.classList.add('match');
+    card.classList.add('matched');
   });
 };
 

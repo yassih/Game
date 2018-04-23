@@ -69,3 +69,7 @@ body {
 .match .front {
   background: #6589F9 !important;
 }
+
+.matched {
+  transform: rotateY(180deg);
+}
