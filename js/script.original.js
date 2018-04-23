@@ -69,6 +69,10 @@ var cardsArray = [{
     card.appendChild(front);
     card.appendChild(back);
   });
+
+  var startOver = document.getElementById('start-over');
+
+  startOver.addEventListener('click', event => { location.reload(); });
   
   const match = () => {
     const selected = document.querySelectorAll('.selected');

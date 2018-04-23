@@ -50,6 +50,9 @@ var delay = 1200;
 
 var game = document.getElementById('game');
 var grid = document.createElement('section');
+var startOver = document.getElementById('start-over');
+
+startOver.addEventListener('click', event => { location.reload(); });
 grid.setAttribute('class', 'grid');
 game.appendChild(grid);
 
