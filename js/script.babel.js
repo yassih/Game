@@ -2,40 +2,40 @@
 
 var cardsArray = [{
   'name': 'shell',
-  'img': 'img/blueshell.png'
+  'img': 'img/01.jpg'
 }, {
   'name': 'star',
-  'img': 'img/star.png'
+  'img': 'img/02.jpg'
 }, {
   'name': 'bobomb',
-  'img': 'img/bobomb.png'
+  'img': 'img/03.jpg'
 }, {
   'name': 'mario',
-  'img': 'img/mario.png'
+  'img': 'img/04.jpg'
 }, {
   'name': 'luigi',
-  'img': 'img/luigi.png'
+  'img': 'img/05.jpg'
 }, {
   'name': 'peach',
-  'img': 'img/peach.png'
+  'img': 'img/06.jpg'
 }, {
   'name': '1up',
-  'img': 'img/1up.png'
+  'img': 'img/07.jpg'
 }, {
   'name': 'mushroom',
-  'img': 'img/mushroom.png'
+  'img': 'img/08.jpg'
 }, {
   'name': 'thwomp',
-  'img': 'img/thwomp.png'
+  'img': 'img/09.jpg'
 }, {
   'name': 'bulletbill',
-  'img': 'img/bulletbill.png'
+  'img': 'img/10.jpg'
 }, {
   'name': 'coin',
-  'img': 'img/coin.png'
+  'img': 'img/11.jpg'
 }, {
   'name': 'goomba',
-  'img': 'img/goomba.png'
+  'img': 'img/12.jpg'
 }];
 
 var gameGrid = cardsArray.concat(cardsArray).sort(function () {

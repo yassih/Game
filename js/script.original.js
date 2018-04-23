@@ -1,52 +1,40 @@
-const cardsArray = [{
-    'name': 'shell',
-    'img': 'img/blueshell.png',
-  },
-  {
-    'name': 'star',
-    'img': 'img/star.png',
-  },
-  {
-    'name': 'bobomb',
-    'img': 'img/bobomb.png',
-  },
-  {
-    'name': 'mario',
-    'img': 'img/mario.png',
-  },
-  {
-    'name': 'luigi',
-    'img': 'img/luigi.png',
-  },
-  {
-    'name': 'peach',
-    'img': 'img/peach.png',
-  },
-  {
-    'name': '1up',
-    'img': 'img/1up.png',
-  },
-  {
-    'name': 'mushroom',
-    'img': 'img/mushroom.png',
-  },
-  {
-    'name': 'thwomp',
-    'img': 'img/thwomp.png',
-  },
-  {
-    'name': 'bulletbill',
-    'img': 'img/bulletbill.png',
-  },
-  {
-    'name': 'coin',
-    'img': 'img/coin.png',
-  },
-  {
-    'name': 'goomba',
-    'img': 'img/goomba.png',
-  },
-];
+var cardsArray = [{
+  'name': 'shell',
+  'img': 'img/01.jpg'
+}, {
+  'name': 'star',
+  'img': 'img/02.jpg'
+}, {
+  'name': 'bobomb',
+  'img': 'img/03.jpg'
+}, {
+  'name': 'mario',
+  'img': 'img/04.jpg'
+}, {
+  'name': 'luigi',
+  'img': 'img/05.jpg'
+}, {
+  'name': 'peach',
+  'img': 'img/06.jpg'
+}, {
+  'name': '1up',
+  'img': 'img/07.jpg'
+}, {
+  'name': 'mushroom',
+  'img': 'img/08.jpg'
+}, {
+  'name': 'thwomp',
+  'img': 'img/09.jpg'
+}, {
+  'name': 'bulletbill',
+  'img': 'img/10.jpg'
+}, {
+  'name': 'coin',
+  'img': 'img/11.jpg'
+}, {
+  'name': 'goomba',
+  'img': 'img/12.jpg'
+}];
 
 const gameGrid = cardsArray
   .concat(cardsArray)
