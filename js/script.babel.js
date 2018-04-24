@@ -77,11 +77,18 @@ gameGrid.forEach(function (item) {
   card.appendChild(back);
 });
 
+let endOfGame = 0;
+
 var match = function match() {
+  endOfGame ++;
   var selected = document.querySelectorAll('.selected');
   selected.forEach(function (card) {
     card.classList.add('matched');
   });
+
+  if(endOfGame === 1) {
+   alert('yeay');
+  }
 };
 
 var resetGuesses = function resetGuesses() {
@@ -125,3 +132,4 @@ grid.addEventListener('click', function (event) {
     previousTarget = clicked;
   }
 });
+

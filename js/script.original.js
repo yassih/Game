@@ -48,6 +48,7 @@ var cardsArray = [{
   
   const game = document.getElementById('game');
   const grid = document.createElement('section');
+  const facts = document.
   grid.setAttribute('class', 'grid');
   game.appendChild(grid);
   
@@ -74,11 +75,17 @@ var cardsArray = [{
 
   startOver.addEventListener('click', event => { location.reload(); });
   
+  let endOfGame = 0;
+
   const match = () => {
+    endOfGame ++;
     const selected = document.querySelectorAll('.selected');
     selected.forEach(card => {
       card.classList.add('matched');
     });
+    if(endOfGame === 1) {
+      alert('congrats');
+    }
   };
   
   const resetGuesses = () => {
@@ -128,3 +135,5 @@ var cardsArray = [{
     }
   
   });
+
+
