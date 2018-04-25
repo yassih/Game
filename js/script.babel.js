@@ -86,8 +86,14 @@ var match = function match() {
     card.classList.add('matched');
   });
 
-  if(endOfGame === 1) {
-   alert('yeay');
+  if(endOfGame === 12) {
+    document.getElementById('start-over').style.visibility = 'visible';
+
+   let pop = document.getElementById('pop');
+   pop.classList.add('visible');
+
+   startIt();
+
   }
 };
 
