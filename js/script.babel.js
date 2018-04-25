@@ -86,7 +86,7 @@ var match = function match() {
     card.classList.add('matched');
   });
 
-  if(endOfGame === 12) {
+  if(endOfGame === 1) {
     document.getElementById('start-over').style.visibility = 'visible';
 
    let pop = document.getElementById('pop');
