@@ -83,7 +83,7 @@ var cardsArray = [{
     selected.forEach(card => {
       card.classList.add('matched');
     });
-    if(endOfGame === 1) {
+    if(endOfGame === 12) {
       alert('congrats');
     }
   };
